@@ -52,7 +52,7 @@ import java.util.Map;
 @SuppressWarnings("deprecation")
 public class CameraSource {
     @SuppressLint("InlinedApi")
-    public static final int CAMERA_FACING_BACK = CameraInfo.CAMERA_FACING_BACK;
+    public static final int CAMERA_FACING_BACK = CameraInfo.CAMERA_FACING_FRONT;
     @SuppressLint("InlinedApi")
     public static final int CAMERA_FACING_FRONT = CameraInfo.CAMERA_FACING_FRONT;
     private static final int DUMMY_TEXTURE_NAME = 100;
